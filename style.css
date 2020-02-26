@@ -263,11 +263,12 @@ h1::after{
 
 .price-head h2{
     color: rgb(14, 9, 9);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
     padding: 5px;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .price-head p{
@@ -275,6 +276,11 @@ h1::after{
     color: rgb(29, 26, 26);
     font-weight: bold;
     line-height: 30px;
+}
+
+.price-head .small{
+    font-size: 15px;
+    padding: 1px 4px;
 }
 
 .price-content{
@@ -312,6 +318,7 @@ ul li:last-child{
     padding: 15px 15px 30px;
     text-align: center;
     width: 100%;
+    word-break: break-all;
     
 }
 
